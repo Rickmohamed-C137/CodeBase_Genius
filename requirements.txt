@@ -1,0 +1,4 @@
+streamlit
+gitpython
+jinja2
+python-dotenv
