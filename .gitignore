@@ -1,0 +1,73 @@
+# .gitignore - CodeBase_Genius (Python + Streamlit + Jac)
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editor/project files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and reports
+*.log
+.coverage
+htmlcov/
+reports/
+
+# Testing caches
+.pytest_cache/
+
+# Mypy/ruff/cache
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Local outputs & tmp (generated docs, diagrams)
+outputs/
+tmp/
+prompts/            # if you prefer not to include the prompt files; remove this line if you want to keep them
+
+# Secrets / env
+.env
+secrets.json
+
+# Git settings and sensitive files
+.git-credentials
+
+# Optional: IDE specific
+.vscode/
+*.suo
+*.user
+
+# Jac files: keep source .jac but ignore compiled artifacts (if any)
+# (If your jac tool creates a bytecode folder or files, add them here)
+# e.g. jac bytecode or temp:
+.jac_build/
+*.jacc
+
+# Other
+*.sqlite
+*.db

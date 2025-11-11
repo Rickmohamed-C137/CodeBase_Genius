@@ -1,0 +1,11 @@
+Generation error:
+All Gemini attempts failed. Recent errors:
+no attempts recorded
+
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Desktop\Projects\CodeBase_Genius\main.jac", line 204, in main
+    generated = generate_with_gemini(prompt_text)
+  File "C:\Users\HomePC\Desktop\Projects\CodeBase_Genius\main.jac", line 181, in generate_with_gemini
+    raise RuntimeError("All Gemini attempts failed. Recent errors:\n" + tb)
+RuntimeError: All Gemini attempts failed. Recent errors:
+no attempts recorded
